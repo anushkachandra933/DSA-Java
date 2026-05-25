@@ -1,0 +1,24 @@
+What are function?
+-It is a block of reusable code that performs a specific task.
+
+difference between arguments and parameters
+
+function overloading and function overriding(Annotation - @Override)
+
+How function uses stack and heap memory-LVT(Local Variable Table),how objects are stored,what is stack frame,persistent storage of memory
+
+why do we use function?
+
+Types of function - parameterised and non parameterised function
+
+Recursive function - A function calling itself within its own body.
+
+Context of function - Global, Lexical, Functional and Local scope
+
+Components of function
+
+Sequential flow of function
+
+Call by value and Call by reference
+
+static and final methods can't be overriden
