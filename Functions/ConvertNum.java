@@ -1,7 +1,6 @@
 package Functions;
 
-public class PracticeQues {
-
+public class ConvertNum {
 
     //convert 0s of a number to 5
     public static int convert0sto5s(int num){
