@@ -1,12 +1,12 @@
 package Functions;
 
-public class BinToDec {
-    public static int binToDec(int n){
+public class OctalToDec {
+    public static int octalToDec(int n){
         int res = 0;
         int update = 0;
         while(n > 0){
             int rem = n % 10;
-            res += rem*Math.pow(2,update);
+            res += rem*Math.pow(8,update);
             update++;
             n /= 10;
         }
@@ -14,6 +14,6 @@ public class BinToDec {
     }
 
     public static void main(String[] args) {
-        System.out.println(binToDec(110010));
+        System.out.println(octalToDec(175));
     }
 }
