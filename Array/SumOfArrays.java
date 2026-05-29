@@ -1,5 +1,6 @@
 package Array;
 public class SumOfArrays{
+    //sum of arrays of different sizes
     public static int[] sumOfArrays(int arr1[], int arr2[]){
         int max = Math.max(arr1.length, arr2.length);
         int result[] = new int[max];
