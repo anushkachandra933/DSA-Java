@@ -17,7 +17,7 @@ public class ShortestDistance {
                 }
             }
         }
-        return -1;
+        return dist;
     }
 
     public static void main(String[] args) {
