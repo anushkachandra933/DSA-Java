@@ -23,7 +23,6 @@ public class LinearSearch {
 
     public static void main(String[] args) {
         int arr[] = {1,9,0,4,5};
-        int target = 9;
         System.out.println(linear_search2(arr, 9));
     }
 }

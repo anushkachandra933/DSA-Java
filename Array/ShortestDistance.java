@@ -13,6 +13,7 @@ public class ShortestDistance {
                             dist = j-i; //1st distance
                         }
                         dist = Math.min(dist,j-i); // finding shortest distance by comparing with previous
+                        break; //exiting from j loop since moving further will never give shortest distance
                     }
                 }
             }

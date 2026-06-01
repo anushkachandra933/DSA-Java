@@ -14,5 +14,6 @@ public class Input {
                 System.out.print(arr[i]+" ");
             }
         }
+        sc.close();
     }
 }
