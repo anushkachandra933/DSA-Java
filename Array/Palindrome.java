@@ -4,7 +4,7 @@ public class Palindrome {
     public static boolean palindrome(int arr[]){
         int n = arr.length;
         int mid = n/2;
-        for(int i=0; i<=mid; i++){
+        for(int i=0; i<mid; i++){
             if(arr[i] != arr[n-i-1]){
                 return false;
             }
